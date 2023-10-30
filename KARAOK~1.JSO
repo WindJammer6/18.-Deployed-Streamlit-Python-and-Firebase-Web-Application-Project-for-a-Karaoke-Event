@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "karaokeeventproject",
+  "private_key_id": "999b2889d729f4b2ec04aac0441fed9b0a370cb0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3eBQnNrR39jCe\nDXGrk8GcFaxpMGXjq8Xxc/kmZ55TITz2iDaYr8RhNoGCJ/A3HFhLTEHvg+SpGFt8\nr7cjc2Rj52lV2sOyf7xDxP00Fq0vIv2H+fGpExbr0Dh2J1VQ7w6pO8wTLjtPKBgF\njq+4J+FRi0GC7tlsausc4oz2+ip+ENIO/4PDyEJBohz7L8bR1xlGZfNbtlm9/Svm\nrxlTrmS2gyw8EhCVr9kpJqkSdIfQ11VCd4v1oLQDkxHWya7EbrYeYkZKhnn5vEg6\nHtURLeM/0q7yODecWEY5zeTgBpxCmroaPMoPxZbgPDEmy1X+7qtrM4x7d8aJMrJ7\ndnoh5CEFAgMBAAECggEAGsgn0viYnAlfW/cU8ImrYcxFJH7I5NTymnZGOL23/iUU\nN9228I954IH7IkOPvI/B8M3zMxJDCw8P7dHdr0pdLXs+pGaAmjoswozLNHMZ+U9H\niLWq+fYcKrS0xUSlHuEiuAAPYH5ncHznEsqbKowBx2xHViRlLz8lToxgrP3kPY4a\nI4amtTVulRBsYlZyRh6LIZFA2wP7jCdzUCbCPNZ/gy0MvPGd1ML6PRIxC436NY0p\n3I2YzUqPPGH5CdmOyiwuhDymnjiryXwDck16NOXZOV+2pjo3mL3I0eMO9x7qRzAJ\nJogix/n0jES8/PFsKTKwjyjiQgSw1MNadixyPbNWsQKBgQDmbvRaPuKgeXXrRkQ3\nxtFGskJ8AwGMJZ5y0IaPyBZFvNWKCBZsSeBf+egWZmuZ1XAIzT7kZI3ULkUQwlG2\nFSJE3MKUmKG1IK1q6uuAn1grGJiFXxUf80XKdY+rx6vWvdCq3yNfmiTfM2gTeFY6\n2S+mSVnkx0YzhWUvNRnNeSM0UQKBgQDL0y+z14odJ/AAGe2HfsMGSA0qElqD77nY\nnO/De78Sv5GUJ5IOL6a+4nlF7SIR1QVIEEXUqnciW8c55sf6Z5IoqRB0iHuEexWm\nW3cLTSO9WhrmcZ4tP+lAmo/bO19UfbyLLaiOfqBBVttEZ3J8zyS+2lLxrRBL3qLD\n8d155kO4dQKBgHHTeyadC6uDdAk9E3ON5VCLu6WwgnItHwDOGropdz8JkV32ssTZ\nFVmzg76U5y/9K7NdV2TQevLFzF4D7wMHm37yobdvUem7843t71kA3TeklarEFhZL\nQD1LJyYOosaXytytDrcp2G7c4NtFRSsan5v/fcUx3m6SxTG1hEJoRUiRAoGBAKg2\nI9oh+aPSP+l1fGgkH0Nh1ytvdjAIebHg4qbLy4bnfndsqMb4YH6MXVVuPH3G9dLh\nSyAVhrheUe7hHQz0yNSxohjqQjW1dsqSFY7IHMS6RhUEk2v4oMFmTW66cxRBqIac\nKc1fh1YlHlQ3o26JbWPsviMhlp9mn6FiTEu70wu5AoGAO28vJEAWPr+FN1F+HZ0z\nwWM5Xo+7g3xuwnpQ7ke85oHVuaNMypeRdGLX7Y63BTGk3mcDPmNtkNy3sbYb94ja\nD9+1QA9v+AY/SlvuNzqASaAZEoOCF5khseKzSSSNHNAsmhWn5hEb8EYuje5VhRyF\nZs8rTXMmM+M+UBOasnDoi0s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-bto3h@karaokeeventproject.iam.gserviceaccount.com",
+  "client_id": "106409655899062355465",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bto3h%40karaokeeventproject.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
