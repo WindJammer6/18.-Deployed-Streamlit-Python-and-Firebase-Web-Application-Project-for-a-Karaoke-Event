@@ -21,7 +21,7 @@ import streamlit as st
 #the Firebase apps that have been initialized in your Python application.
 if not firebase_admin._apps:
     # Initialize Firebase
-    credentials_object = firebase_admin.credentials.Certificate("karaokeeventproject-firebase-adminsdk.json")
+    credentials_object = firebase_admin.credentials.Certificate("firebase_key.json")
     firebase_admin.initialize_app(credentials_object, {
         'databaseURL': 'https://karaokeeventproject-default-rtdb.asia-southeast1.firebasedatabase.app/'
     })
@@ -40,7 +40,7 @@ print(reference_to_database.get())
 
 st.image(image="karaoke_poster.jpg", width=680)
 st.header("🎶 Add Your Name and Your Song Choice! 🎶")
-st.markdown("If you accidentally added yourself into the song queue and wish to remove yourself from the queue, please message Jet Wei on telegram (Tele handle: @Jetwei)")
+st.markdown("If you accidentally added yourself into the song queue and wish to remove yourself from the queue, please message Jet Wei (@Jetwei) or Siddharth (@musicbysid) on telegram!")
 
 #(main)_karaoke_singer_registration_streamlit_and_firebase
 ########################################################
