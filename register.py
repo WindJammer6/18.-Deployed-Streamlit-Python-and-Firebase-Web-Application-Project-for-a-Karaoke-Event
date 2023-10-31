@@ -42,7 +42,7 @@ st.image(image="karaoke_poster.svg", width=680)
 st.header("🎶 Add Your Name and Your Song Choice! 🎶")
 st.markdown("If you accidentally added yourself into the song queue and wish to remove yourself from the queue, please message Jet Wei (@Jetwei) or Siddharth (@musicbysid) on telegram!")
 
-#(main)_karaoke_singer_registration_streamlit_and_firebase
+
 ########################################################
 #ABOUT STREAMLIT (PYTHON)'S 'ST.SESSION_STATE' FUNCTION#
 ########################################################
