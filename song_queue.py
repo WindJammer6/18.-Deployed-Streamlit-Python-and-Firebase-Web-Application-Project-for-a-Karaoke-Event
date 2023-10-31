@@ -29,7 +29,7 @@ from streamlit_autorefresh import st_autorefresh
 #the Firebase apps that have been initialized in your Python application.
 if not firebase_admin._apps:
     # Initialize Firebase
-    credentials_object = firebase_admin.credentials.Certificate('karaokeeventproject-firebase-adminsdk.json')
+    credentials_object = firebase_admin.credentials.Certificate('firebase_key.json')
     firebase_admin.initialize_app(credentials_object, {
         'databaseURL': 'https://karaokeeventproject-default-rtdb.asia-southeast1.firebasedatabase.app/'
     })
