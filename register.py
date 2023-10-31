@@ -38,7 +38,7 @@ print(reference_to_database.get())
 
 #FRONTEND - Streamlit (Python) app side of things...
 
-st.image(image="karaoke_poster.jpg", width=680)
+st.image(image="karaoke_poster.svg", width=680)
 st.header("🎶 Add Your Name and Your Song Choice! 🎶")
 st.markdown("If you accidentally added yourself into the song queue and wish to remove yourself from the queue, please message Jet Wei (@Jetwei) or Siddharth (@musicbysid) on telegram!")
 
