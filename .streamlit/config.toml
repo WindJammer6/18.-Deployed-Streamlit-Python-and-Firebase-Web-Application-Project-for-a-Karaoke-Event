@@ -1,4 +1,4 @@
-# This 'config.toml' file sets the custom theming of the Streamlit (Python) web applications
+# This 'config.toml' file sets the custom theming of the Streamlit (Python) web applications. This file is created using ChatGPT.
 [theme]
 primaryColor = '#1a237e'  # Set your desired primary color
 backgroundColor = '#121212'  # Set your desired background color
