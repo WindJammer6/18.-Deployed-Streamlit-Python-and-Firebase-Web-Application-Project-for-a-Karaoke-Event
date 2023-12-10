@@ -15,7 +15,7 @@ More information can be found in the [17.-Projects-from-School](https://github.c
 ## Table of Contents
 Here is a directory to explain the purpose of each file in this repository in the creation of the deployed, budget full stack website in Python with Streamlit (Python Framework) and Firebase (API)'s Realtime Database:
 1. '.streamlit' folder
-   1. 'config.toml' file
+   i. 'config.toml' file
 2. 'README.md' file
 3. 'firebase_key.json' file
 4. 'karaoke_poster.jpg' file
@@ -38,11 +38,9 @@ secondaryBackgroundColor = '#0d47a1'  # Set your desired secondary background co
 textColor = '#ffffff'  # Set your desired text color
 font = 'sans-serif'  # Set your desired font
 ```
+This is an optional folder/file, in accordance to the deployment of Streamlit (Python Framework) Web Application documentation: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit), which allows you to set customised configurations or themings to the deployed Streamlit (Python Framework) Web Application.
 
-Talk about the extra files: requirements.txt and the .streamlit/config.toml files (its according to instructions given in the how to deploy a streamlit web app documentation here: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app
-
-the config.toml file is created using chatgpt since i laze figure out how exactly to create a config.toml file to deal with the system configuration of the streamlit app via this config.toml file
-
+I do not know how to use this 'config.toml' file very proficiently, so this file is created by ChatGPT to set the dark theming to my 2 deployed Streamlit (Python Framework) Web Applications.
 
 <br>
 
@@ -71,7 +69,7 @@ The 'README.md' file.
   "universe_domain": "googleapis.com"
 }
 ```
-Importing the 'random' library.
+This file represents the authetication key. Apparently, when accessing to APIs (such as the Firebase API), you will need to have a sort of, authentication key, which is what this file is to ensure that only authorized users can access the API. Refer to this video to understand how the Firebase API authetication key is used with your Python code: https://www.youtube.com/watch?v=s-Ga8c3toVY&t=336s (Code First with Hala) 
 
 <br>
 
