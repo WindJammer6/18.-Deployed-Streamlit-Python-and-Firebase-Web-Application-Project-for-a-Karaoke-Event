@@ -79,7 +79,7 @@ Importing the 'random' library.
 
 **4. 'karaoke_poster.jpg' file**
 <p align="center"> 
-  <img src="https://github.com/WindJammer6/18.-Deployed-Streamlit-Python-and-Firebase-Web-Application-Project-for-a-Karaoke-Event/blob/main/karaoke_poster.jpg"  width="350" height="200">
+  <img src="https://github.com/WindJammer6/18.-Deployed-Streamlit-Python-and-Firebase-Web-Application-Project-for-a-Karaoke-Event/blob/main/karaoke_poster.jpg"  width="450" height="200">
 </p>
 An image used for aesthetic purposes in the song registration Streamlit (Python Framework) Web Application.
 
