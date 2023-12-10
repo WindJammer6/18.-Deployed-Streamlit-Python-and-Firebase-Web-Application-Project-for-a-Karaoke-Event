@@ -146,7 +146,7 @@ A supporting OOP Python Queue Data Structure class file used in building the pro
 
 <br>
 
-**7. 'register.py' file**
+**7. 'register.py' file**  
 The main Python file for the song registration Streamlit (Python Framework) Web Application itself.
 
 <br>
@@ -171,7 +171,7 @@ Talk about the extra files: requirements.txt and the .streamlit/config.toml file
 
 <br>
 
-**9. 'song_queue.py' file**
+**9. 'song_queue.py' file**  
 The main Python file for the song queue Streamlit (Python Framework) Web Application itself.
 
 
