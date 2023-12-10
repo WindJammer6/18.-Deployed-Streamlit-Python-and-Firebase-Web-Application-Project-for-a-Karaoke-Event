@@ -11,3 +11,5 @@ https://share.streamlit.io/ my 2 streamlit apps can be monitored through the str
 the config.toml file is created using chatgpt since i laze figure out how exactly to create a config.toml file to deal with the system configuration of the streamlit app via this config.toml file
 
 this repo is like the code base of the deployed streamlit web app in streamlit cloud io. any changes in the code in this repo will directly affect the deployed streamlit web application in the streamlit community cloud 
+
+This project can be considered a semi-budget full stack website
