@@ -156,11 +156,9 @@ The main Python file for the song registration Streamlit (Python Framework) Web 
 firebase_admin
 streamlit_autorefresh
 ```
-This is a compulsory file, in accordance to the deployment of Streamlit (Python Framework) Web Application documentation: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit), which allows you to set customised configurations or themings to the deployed Streamlit (Python Framework) Web Application.
+This is a compulsory file, in accordance to the deployment of Streamlit (Python Framework) Web Application documentation: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit), which allows you to tell Streamlit (Python Framework) to download the necessary external libraries/framework/packages specified in this 'requirements.txt' file in the deployment environment that is required for the deployment the Streamlit (Python Framework) Web Application. 
 
-looks rather cryptic
-Talk about the extra files: requirements.txt and the .streamlit/config.toml files (its according to instructions given in the how to deploy a streamlit web app documentation here: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app
-
+Had quite the trouble during deployment of the Streamlit (Python Framework) Web Applications as the Streamlit deployment platform keep giving an error that it could not find the relevant external libraries/Framework/packages required to deploy my Streamlit (Python Framework) Web Applications until I found out in the  deployment of Streamlit (Python Framework) Web Application documentation: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit) that apparently I needed this seperate 'requirements.txt' file in order to tell the Streamlit deployment platform to download the necessary external libraries/framework/packages during the deployment of the Streamlit (Python Framework) Web Applications.
 
 <br>
 
