@@ -27,7 +27,7 @@ Here is a directory to explain the purpose of each file in this repository in th
 
 <br>
 
-**1. '.streamlit' folder**
+**1. '.streamlit' folder**  
 *i. config.toml' file*
 ```python
 # This 'config.toml' file sets the custom theming of the Streamlit (Python) web applications. This file is created using ChatGPT.
@@ -156,6 +156,8 @@ The main Python file for the song registration Streamlit (Python Framework) Web 
 firebase_admin
 streamlit_autorefresh
 ```
+This is a compulsory file, in accordance to the deployment of Streamlit (Python Framework) Web Application documentation: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit), which allows you to set customised configurations or themings to the deployed Streamlit (Python Framework) Web Application.
+
 looks rather cryptic
 Talk about the extra files: requirements.txt and the .streamlit/config.toml files (its according to instructions given in the how to deploy a streamlit web app documentation here: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app
 
