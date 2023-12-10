@@ -13,3 +13,7 @@ the config.toml file is created using chatgpt since i laze figure out how exactl
 this repo is like the code base of the deployed streamlit web app in streamlit cloud io. any changes in the code in this repo will directly affect the deployed streamlit web application in the streamlit community cloud 
 
 This project can be considered a semi-budget full stack website
+
+notice for the deployed folder the files have different (shorter) names, to prevent errors during deployment (cuz long file names may cause error during deployment)
+
+Talk about the extra files: requirements.txt and the .streamlit/config.toml files (its according to instructions given in the how to deploy a streamlit web app documentation here: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app
