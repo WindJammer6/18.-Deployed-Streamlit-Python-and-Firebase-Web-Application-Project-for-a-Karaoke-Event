@@ -48,7 +48,7 @@ the config.toml file is created using chatgpt since i laze figure out how exactl
 
 <br>
 
-**2. 'README.md' file**
+**2. 'README.md' file**  
 The 'README.md' file.
 
 <br>
