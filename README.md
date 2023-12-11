@@ -14,7 +14,7 @@ More information can be found in the [17.-Projects-from-School](https://github.c
 
 ## Table of Contents
 Here is a directory to explain the purpose of each file in this repository in the creation of the deployed, budget full stack website in Python with Streamlit (Python Framework) and Firebase (API)'s Realtime Database:
-1. '.streamlit' folder
+1. '.streamlit' folder  
    i. 'config.toml' file
 2. 'README.md' file
 3. 'firebase_key.json' file
