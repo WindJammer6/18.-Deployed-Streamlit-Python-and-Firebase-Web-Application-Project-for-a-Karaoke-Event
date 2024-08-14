@@ -1,4 +1,4 @@
-# 18.-Deployed-Streamlit-Python-and-Firebase-Web-Application-Project-for-a-Karaoke-Event
+# 18.-Deployed-Streamlit-Python-and-Firebase-Web-Application-Project-for-a-Karaoke-Event ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=firebase)
 This project is a deployed, budget full stack website in Python with Streamlit (Python Framework) and Firebase (API)'s Realtime Database. The purpose of this project is to be used as a supporting technology project to support a Karaoke Event (titled SingUTD), organised by me and other members of the student committee of our school. It contains 2 Streamlit (Python Framework) Web Applications, which are connected to a Firebase (API)'s Realtime Database.
 
 I described this project as a 'budget' full stack website as this website is built on top of existing frameworks, rather than from scratch (basic programming languages such as via HTML, CSS, JavaScript, SQL, etc.)
