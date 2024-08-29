@@ -1,0 +1,138 @@
+What is Firebase?
+Firebase is a platform provided by Google for building web and mobile applications. It offers a wide range of 
+services and tools that help developers create high-quality applications more easily and efficiently. One of the 
+services provided by Firebase is the Realtime Database, which is a NoSQL cloud-hosted database that allows you to 
+store and synchronize data in real-time.
+
+It is a seperate software, but you can use the Firebase Python library, 'firebase_admin' to integrate functionality
+of this seperate Firebase software into your Python projects to allow you to allow your Python projects here to 
+interact with your seperate backend Firebase software.
+
+Link to the Firebase software: https://firebase.google.com/
+
+
+#//////////////////////////////////////////////////////////////////////////////
+
+
+Usage of Firebase in this project:
+- Using the Realtime Database in Firebase to store, manipulate and retrieve data from the Streamlit (Python)
+  web applications
+
+
+#//////////////////////////////////////////////////////////////////////////////
+
+
+Firebase learning sources:
+- Firebase with Python Full Course Youtube video: https://www.youtube.com/watch?v=s-Ga8c3toVY&t=336s (Code First 
+  with Hala)
+- ChatGPT: https://chat.openai.com/ 
+
+
+#///////////////////////////////////////////////////////////////////////////////////////////
+
+
+How to get Firebase's Realtime Database to work with Streamlit (Python)?
+
+Setting up Firebase:
+1. Set up a Firebase Project. In the Firebase software via this link: https://firebase.google.com/
+
+2. Go to the Firebase Console (https://console.firebase.google.com/). Create or select an existing Firebase project 
+   for your Streamlit application.
+
+
+Setting up Firebase in your Streamlit (Python) code/web application:
+1. Find the credentials JSON service account key file from Firebase software/Realtime database, download the
+   JSON service key file, and put it in the same folder as your Streamlit (Python) project. For example, the
+   JSON service account key file of the Firebase software/Realtime database in this ROOTech Karaoke Event project
+   is the file named 'karaokeeventproject-firebase-adminsdk-bto3h-999b2889d7.json'. Here is how you can find the
+   JSON service account key file of the Firebase software/Realtime database.
+   a. Go to Firebase Console: Open a web browser and navigane to the Firebase Console.
+   b. Select Your Project: If you haven't created a project in Firebase yet, create one. Otherwise, select the 
+      project you want to work with.
+   c. Project Settings: Click on the gear icon (⚙️) at the top left corner to access the Project Settings.
+   d. Service Accounts: In the Project Settings, go to the "Service accounts" tab.
+   e. Generate New Private Key: Under "Firebase Admin SDK," you will find a section to generate a new private key. 
+      Click on the "Generate new private key" button.
+   f. Generate Key: A dialog will appear. Click the "Generate key" button.
+   g. Download JSON File: A JSON key file will be generated and downloaded to your computer. Save it in a secure 
+      location, which will be the credentials JSON service account key file from Firebase software/Realtime 
+      database that you want to be placing in the same folder as your Streamlit (Python) project in order to get 
+      Firebase's Realtime Database to work with Streamlit (Python)
+
+2. Initialize Firebase in Streamlit. You can do this by adding these lines of code into your Streamlit (Python)
+   code file using your Firebase Admin SDK credentials and your Firebase Realtime Database's database URL
+        ```
+        from firebase_admin import db
+        import firebase_admin
+
+        # Initialize Firebase
+        credentials_object = firebase_admin.credentials.Certificate('path/to/your/credentials.json')
+        firebase_app = firebase_admin.initialize_app(credentials_object, {
+            'databaseURL': '[your database URL]'
+        })
+        ```
+    The way to find your 'path/to/your/credentials.json' is already mentioned in the above point.
+
+    The way to find 'your database URL is as such:
+    a. Open the Firebase Console: Visit the Firebase Console at https://console.firebase.google.com/ and log in 
+       with your Google account.
+    b. Create or Select a Firebase Project: If you haven't created a Firebase project yet, create one. Otherwise, 
+       select the project where you want to work with the Realtime Database.
+    c. Navigane to Realtime Database: In the Firebase Console, look for the "Database" option in the left menu. 
+       Click on it to access the Realtime Database section.
+    d. Locate Database URL: In the Realtime Database section, you will find your database URL. It should look like: 
+       https://your-project-id.firebaseio.com/. You can use this URL to access your Firebase Realtime Database from 
+       your application.
+
+    For example, for this ROOTech Karaoke Event project, the 'path/to/your/credentials.json'/aka the JSON service 
+    account key file from Firebase software/Realtime database,  will be 
+    'karaokeeventproject-firebase-adminsdk-bto3h-999b2889d7.json', and the 'database URL' will be 
+    'https://karaokeeventproject-default-rtdb.asia-southeast1.firebasedatabase.app/'
+
+3. You can interact with the Firebase Realtime database by using these lines of code, by use the 'db.reference()' 
+   function (you can get access to the 'db' class by importing from the 'firebase_admin' library using the code
+   'from firebase_admin import db') to get a reference to the Firebase Realtime Database. This reference can be 
+   used to maniuplate data in the database.
+        ```
+        reference_to_database = db.reference('path/to/your/data')
+        ```
+   Replace 'path/to/your/data' with the specific path to your data within the Firebase Realtime Database, but for
+   some reason just 'reference_to_database = db.reference('/')' works for this ROOTech Karaoke Event project's 
+   2 Streamlit (Python) web applications.
+
+
+#/////////////////////////////////////////////////////////////////////////
+
+
+Technical functions/methods of Firebase on Streamlit (Python):
+
+What are some ways you can manipulate data in your Realtime database in Firebase via your Streamlit (Python)
+code?
+There are 4 important functions/ways that allows you to interact with the data in the Realtime Database in 
+Firebase in Python:
+1. Create data with '.set([Insert the data here])' function
+2. Update data with 'update([Inserted updated key-value data dictionary here])'
+3. Delete data withh '.remove()'
+4. Read data with '.get()'
+
+You can also manipulate the Realtime database from the Firebase software itself from your Firebase project directly
+from here: https://console.firebase.google.com/u/0/, and navigating to the Firebase's Realtime database in the left
+menu.
+
+
+Firebase offers much more than just Realtime database for your Streamlit (Python) web applications (note that
+Firebase also works with other web/mobile application building softwares apart from Streamlit (Python)). Here are 
+some other ways you can access other components of Firebase in Python, including other Firebase backend
+componenets apart from the database, the authentication and storage components
+1. Firebase's database component
+        ```
+        database = firebase.database()
+        ```
+2. Firebase's authentication component
+        ```
+        authentication = firebase.auth()
+        ```
+3. Firebase's storage component
+        ```
+        storage = firebase.storage()
+        ```
