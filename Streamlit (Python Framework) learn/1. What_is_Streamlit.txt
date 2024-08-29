@@ -1,0 +1,13 @@
+What is Streamlit?
+Streamlit is a Python Framework for developing Web Applications especially for Data Science, 
+Machine Learning and Artificial Intelligence.
+
+Some advantages of Streamlit?
+- It is compatible with other Python Frameworks such as Scikit, Keras, Numpy, Pandas, 
+  TensorFlow, etc
+- Maximises Development Speed
+- Allows safe and secure Web Application Development- No HTML, CSS or JavaScript coding 
+  required
+- Easy to deploy
+
+Streamlit documentation link: https://docs.streamlit.io/library/api-reference
