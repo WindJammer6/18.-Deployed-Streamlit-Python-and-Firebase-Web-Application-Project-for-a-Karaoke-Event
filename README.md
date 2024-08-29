@@ -1,4 +1,57 @@
 # 18.-Deployed-Streamlit-Python-and-Firebase-Web-Application-Project-for-a-Karaoke-Event ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=firebase)
+
+## [3. Streamlit (Python) and Firebase Web Application Project for a Karaoke Event](https://github.com/WindJammer6/17.-Mini-Projects-from-School/tree/main/3.%20Streamlit%20(Python)%20and%20Firebase%20Web%20Application%20Project%20for%20a%20Karaoke%20Event) <a name = "streamlitkaraoke"></a>
+<p align="center"> 
+  <img src="https://github.com/WindJammer6/17.-Mini-Projects-from-School/blob/main/3.%20Streamlit%20(Python)%20and%20Firebase%20Web%20Application%20Project%20for%20a%20Karaoke%20Event/Image%20of%20Streamlit%20(Python)%20Karaoke%20Singer%20Registration%20web%20application.jpg"  width="350" height="250">
+  <img src="https://github.com/WindJammer6/17.-Mini-Projects-from-School/blob/main/3.%20Streamlit%20(Python)%20and%20Firebase%20Web%20Application%20Project%20for%20a%20Karaoke%20Event/Image%20of%20Streamlit%20(Python)%20Song%20Queue%20web%20application.jpg"  width="350" height="250">
+  <img src="https://github.com/WindJammer6/17.-Mini-Projects-from-School/blob/main/3.%20Streamlit%20(Python)%20and%20Firebase%20Web%20Application%20Project%20for%20a%20Karaoke%20Event/Image%20of%20Firebase%20Realtime%20Database.jpg"  width="500" height="250">
+  <img src="https://github.com/WindJammer6/17.-Mini-Projects-from-School/blob/main/3.%20Streamlit%20(Python)%20and%20Firebase%20Web%20Application%20Project%20for%20a%20Karaoke%20Event/Image%20of%20CSV%20file%20Database.jpg"  width="400" height="250">
+  <img src="https://github.com/WindJammer6/17.-Mini-Projects-from-School/blob/main/3.%20Streamlit%20(Python)%20and%20Firebase%20Web%20Application%20Project%20for%20a%20Karaoke%20Event/Image%20of%20Karaoke%20Singer%20Registration%20Web%20Application%20Promotional%20Poster%20with%20QR%20code.jpg"  width="400" height="500">
+  <img src="https://github.com/WindJammer6/17.-Mini-Projects-from-School/blob/main/3.%20Streamlit%20(Python)%20and%20Firebase%20Web%20Application%20Project%20for%20a%20Karaoke%20Event/Image%20of%20SingUTD%20Promotional%20Poster%20with%20QR%20code%20for%20event%20registration.jpg"  width="400" height="500">
+</p>
+
+**Summary about the project:**  
+The project task is to create a supporting technology project to support a Karaoke Event (titled SingUTD), organised by me and other members of the student committee of our school. To meet the tasks required, I have decided to create 2 Web Applications using Streamlit (Python Framework), linked together via Firebase (API)'s Realtime Database. The first Web Application allows users to submit their name and song choice via a Streamlit (Python) website link, where the data will then be added into the Firebase (API)'s Realtime Database, where the other Streamlit (Python) Web Application will draw the data from to display the data in a song queue on a projected screen during the Karaoke Event to show whoever is the next singer and their song choice. 
+
+In the '3. Streamlit (Python) Web Application Project for a Karaoke Event' folder, there are 4 folders:  
++ 'Streamlit (Python Framework) learn' - consists of my learning journey of the Streamlit (Python Framework) (Youtube playlist where I learnt the Streamlit (Python Framework) from: https://www.youtube.com/playlist?list=PLa6CNrvKM5QU7AjAS90zCMIwi9RTFNIIW by [Nileg Production](https://www.youtube.com/@nilegproduction) (only up till the 14th video in the playlist)
++ '(deployed, using Firebase as database) Streamlit (Python Framework) and Firebase ROOTech Karaoke Night project' - consists of the files that are required for the deployment of the main version of the Streamlit (Python Framework) Web Application Project with the Firebase (API) itself. The deployed Streamlit (Python Framework) Web Application and Firebase (API) Project is linked to this Github account. [18.-Deployed-Streamlit-Python-and-Firebase-Web-Application-Project-for-a-Karaoke-Event](https://github.com/WindJammer6/18.-Deployed-Streamlit-Python-and-Firebase-Web-Application-Project-for-a-Karaoke-Event) is the repository that is linked to the deployed Streamlit (Python Framework) and Firebase (API) Web Application Project, and it has the exact same files in this folder. The purpose of each file is explained in the 'README.md' file in this [other repository](https://github.com/WindJammer6/18.-Deployed-Streamlit-Python-and-Firebase-Web-Application-Project-for-a-Karaoke-Event). Names of the files are shortened compared to the files in the '(main, using Firebase as database) Streamlit (Python Framework) and Firebase ROOTech Karaoke Night project' folder to prevent any errors caused by long file names during deployment.
++ '(main, using Firebase as database) Streamlit (Python Framework) and Firebase ROOTech Karaoke Night project' - consists of the files that contains the code for the main version of the Streamlit (Python Framework) Web Application Project with the Firebase (API). (excludes the supporting files required for deployment of the Streamlit (Python Framework) and Firebase (API) Web Application Project with detailed namings of the files)
++ '(prototype, using csv file as database) Streamlit (Python Framework) ROOTech Karaoke Night project' - consists of the files that contains the prototype version of the Streamlit (Python Framework) Web Application Project, but it uses a CSV file as a 'database' rather than the Firebase (API). However, a senior eventually mentioned that this will not work as a CSV file is not dynamic, and will be unchangable/static when it is deployed, which will not work as the project needs to be dynamic, where the database needs to be able to be constantly updated during the deployment. This is where the connecting the 2 Streamlit Web Applications to an alternate database such as Firebase (API)'s Realtime Database solves the problem.
+
+*This project's deployed Streamlit (Python Framework)'s Web Applications and Firebase (API) links:*
++ https://8kbtr2cyktbh4qn2doay5g.streamlit.app/ (Karaoke Singer Registration Streamlit (Python Framework) Web Application)
++ https://2bgope7myic8tuh3dy6vi4.streamlit.app/ (Song queue display Streamlit (Python Framework) Web Application)
++ https://console.firebase.google.com/u/0/project/karaokeeventproject/database/karaokeeventproject-default-rtdb/data (Direct link to this project's Firebase (API) Realtime database, but only accessible by me through email)  
+
+*Potential Improvements:*
+- Automating the process, where after the end of a song, the song queue removes the top singer in the song queue who has completed their song
+- Add a functionality where the registration Streamlit (Python Framework) Web Application tells the user, upon submitting their registration details, how many other users are in front of them in the song queue
+
+*Additional Link(s):*
++ https://streamlit.io/cloud (Streamlit Cloud where you can deploy your Streamlit (Python Framework) Web Application)
++ https://console.firebase.google.com/u/0/ (Firebase (API) software)
+
+*Source(s):*  
+- https://www.youtube.com/playlist?list=PLa6CNrvKM5QU7AjAS90zCMIwi9RTFNIIW (Nileg Production) (Learning of Streamlit (Python Framework))  
+- https://www.youtube.com/watch?v=s-Ga8c3toVY&t=336s (Code First with Hala) (Learning of how to connect Firebase (API) to Python)  
+- https://docs.streamlit.io/library/api-reference/session-state (Streamlit) (Streamlit (Python Framework)'s official documentation on it's 'st.session_state' function. Had a seperate learning source for this particular function due to the complexity of its function)  
+- https://www.youtube.com/watch?v=92jUAXBmZyU (Streamlit) (Youtube Video: 'Session State Basics' by Streamlit)  
+- https://github.com/kmcgrady/streamlit-autorefresh#how-does-this-component-help ([kmcgrady](https://github.com/kmcgrady) on Github) (Documentation on a custom Streamlit function, 'st_autorefresh' from the custom  'streamlit-autorefresh' library created by [kmcgrady](https://github.com/kmcgrady) that I used in the song queue display Streamlit (Python Framework) Web Application)
+- https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit Cloud) (Documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud)
+- https://chat.openai.com/ (ChatGPT)  
+- And lastly... seniors and friends from school :)
+
+*Programming Languages used:*  
+[![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
+
+*Frameworks used:*  
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=firebase)
+
+<br>
+
+
+
 This project is a deployed, budget full stack website in Python with Streamlit (Python Framework) and Firebase (API)'s Realtime Database. The purpose of this project is to be used as a supporting technology project to support a Karaoke Event (titled SingUTD), organised by me and other members of the student committee of our school. It contains 2 Streamlit (Python Framework) Web Applications, which are connected to a Firebase (API)'s Realtime Database.
 
 I described this project as a 'budget' full stack website as this website is built on top of existing frameworks, rather than from scratch (basic programming languages such as via HTML, CSS, JavaScript, SQL, etc.)
