@@ -41,7 +41,7 @@ The approach to developing this UROP project is split into 3 components:
 ## Table of Contents
 Here is a directory to explain the purpose of each file in this repository:
 
-1. [Files that are required in the creation of the Streamlit and Firebase Web Application Project for a Karaoke Event](#filesrequiredincreationofstreamlitwebapplication)
+1. [Files that are required in the creation of the Streamlit and Firebase Web Application Project for a Karaoke Event](#filesrequiredincreationofstreamlitwebapplications)
     1. '.streamlit' folder  
        i. 'config.toml' file
     2. 'README.md' file
@@ -53,7 +53,7 @@ Here is a directory to explain the purpose of each file in this repository:
     8. 'requirements.txt' file
     9. 'song_queue.py' file
       
-2. [Additional files that are not part of the creation of the Streamlit and Firebase Web Application Project for a Karaoke Event, but includes the past iterations/versions/prototypes of the Streamlit and Firebase Web Application Project for a Karaoke Event](#filesofpastiterationsofstreamlitwebapplication)
+2. [Additional files that are not part of the creation of the Streamlit and Firebase Web Application Project for a Karaoke Event, but includes the past iterations/versions/prototypes of the Streamlit and Firebase Web Application Project for a Karaoke Event](#filesofpastiterationsofstreamlitwebapplications)
     1. (main, using Firebase as database) Streamlit (Python Framework) and Firebase ROOTech Karaoke Night project
     2. (prototype, using csv file as database) Streamlit (Python Framework) ROOTech Karaoke Night project
   
@@ -61,11 +61,11 @@ Here is a directory to explain the purpose of each file in this repository:
     1. Streamlit (Python Framework) learn
     2. Firebase (Python Framework) learn
     
-4. [Deployment Process of the Streamlit and Firebase Web Application Project for a Karaoke Event on Streamlit Cloud](#deploymentofstreamlitwebapplication)
+4. [Deployment Process of the Streamlit and Firebase Web Application Project for a Karaoke Event on Streamlit Cloud](#deploymentofstreamlitwebapplications)
 
 <br>
 
-## 1. Files that are required in the creation of the Streamlit and Firebase Web Application Project for a Karaoke Event <a name = "filesrequiredincreationofstreamlitwebapplication"></a>
+## 1. Files that are required in the creation of the Streamlit and Firebase Web Application Project for a Karaoke Event <a name = "filesrequiredincreationofstreamlitwebapplications"></a>
 **1. '.streamlit' folder**  
 *i. config.toml' file*
 ```python
@@ -200,7 +200,7 @@ Source(s):
  
 <br>
 
-## 2. Past iterations/versions/prototypes of the Streamlit and Firebase Web Application Project for a Karaoke Event <a name = "filesofpastiterationsofstreamlitwebapplication"></a>
+## 2. Past iterations/versions/prototypes of the Streamlit and Firebase Web Application Project for a Karaoke Event <a name = "filesofpastiterationsofstreamlitwebapplications"></a>
 1. *(main, using Firebase as database) Streamlit (Python Framework) and Firebase ROOTech Karaoke Night project*  
    Consists of the files that contains the code for the main version of the Streamlit (Python Framework) Web Application Project with the Firebase (API). (excludes the supporting files required for deployment of the Streamlit (Python Framework) and Firebase (API) Web Application Project with detailed namings of the files)
 
@@ -230,7 +230,7 @@ Source(s):
    *What is Firebase (Python Framework)?*  
    Firebase is a platform provided by Google for building web and mobile applications. It offers a wide range of services and tools that help developers create high-quality applications more easily and efficiently. One of the services provided by Firebase is the Realtime Database, which is a NoSQL cloud-hosted database that allows you to store and synchronize data in real-time.
 
-It is a seperate software, but you can use the Firebase Python library, 'firebase_admin' to integrate functionality of this seperate Firebase software into your Python projects to allow you to allow your Python projects here to interact with your seperate backend Firebase software.
+   It is a seperate software, but you can use the Firebase Python library, 'firebase_admin' to integrate functionality of this seperate Firebase software into your Python projects to allow you to allow your Python projects here to interact with your seperate backend Firebase software.
 
 Source(s):  
 - https://console.firebase.google.com/ (Firebase) (Firebase console/dashboard)
@@ -238,7 +238,7 @@ Source(s):
 
 <br>
 
-## 4. Deployment Process of the Streamlit and Firebase Web Application Project for a Karaoke Event on Streamlit Cloud <a name = "deploymentofstreamlitwebapplication"></a> ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit)
+## 4. Deployment Process of the Streamlit and Firebase Web Application Project for a Karaoke Event on Streamlit Cloud <a name = "deploymentofstreamlitwebapplications"></a> ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit)
 
 *What is [Streamlit Cloud](https://streamlit.io/cloud)?*  
 From the official [Streamlit Cloud](https://streamlit.io/cloud) website: 'Streamlit Cloud is a new product that lets you build, deploy, and share data from Streamlit Web Applications in minutes.' 
