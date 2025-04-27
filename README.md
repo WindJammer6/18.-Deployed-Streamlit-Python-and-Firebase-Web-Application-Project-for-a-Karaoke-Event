@@ -27,8 +27,8 @@ This repository acts as the 'code base' of the 2 deployed Streamlit (Python Fram
 
 <br>
 
-## My Approach to developing this UROP project:  
-The approach to developing this UROP project is split into 3 components:  
+## My Approach to developing this project:  
+The approach to developing this project is split into 3 components:  
 2 Web Applications using Streamlit (Python Framework), linked together via 1 Firebase (API)'s Realtime Database. The first Web Application allows users to submit their name and song choice via a Streamlit (Python) website link, where the data will then be added into the Firebase (API)'s Realtime Database, where the other Streamlit (Python) Web Application will draw the data from to display the data in a song queue on a projected screen during the Karaoke Event to show whoever is the next singer and their song choice.
 
 *This project's deployed Streamlit (Python Framework)'s Web Applications and Firebase (API) links:*
